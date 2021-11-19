@@ -1,0 +1,333 @@
+/* GENERAL CSS  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.btn-success{
+    background: #21B573;
+
+}
+/* CUSTOM CSS */
+.header-section{
+    background-color: #F0FFF0;
+}
+.site-logo{
+    width: 180px;
+}
+
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.header-section .navbar .btn-success{
+    padding: 8px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.header-section .navbar .btn-success:hover,
+.header-section .navbar .btn-success:focus{
+    color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.header-section .navbar-light .navbar-nav .home-link {
+    border: 1px solid #000;
+    font-weight: 600;
+}
+
+/* BANNER SECTION */
+.header-section .banner{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.banner .banner-subtext{
+    color: #FD511A;
+    font-size: 16px;
+}
+
+.banner .banner-subheader{
+    color: #21B573;;
+}
+
+.banner .banner-header{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.banner .banner-text{
+    color: #000;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.banner .banner-button{
+    padding: 8px 35px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner .banner-button:hover,
+.banner .banner-button:focus{
+    color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+
+.banner img{
+    width: 600px;
+    height: 346px;
+}
+
+/* FEATURE SECTION */
+
+.feature{
+    width: 100%;
+    padding: 80px 0px 80px;
+}
+
+.feature .inner-feature{
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #f8fffb; /*  */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.feature .inner-feature:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.feature .inner-feature img{
+    width: 85px;
+    height: 85px;
+    margin: 0px 0px 20px;
+}
+
+.feature .inner-feature h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #000;
+    margin: 0px;
+}
+
+.feature .inner-feature p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #585859;
+    margin: 0px;
+}
+
+/* COURSE SECTION */
+
+.course{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.course h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color:#000;
+    text-align: center;
+    margin: 0px 0px 80px;
+}
+
+.course .card{
+    padding: 20px;
+    background: #FFFFFF;
+    border: 0px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.course .card .main-img{
+    border-radius: 11px;
+}
+
+.course .card-body{
+    padding: 20px 0px 0px;
+}
+
+.course .card-body .card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+
+.course .card-body .card-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    margin-bottom: 20px;
+}
+
+.course .card-body .btn-success{
+    padding: 8px 35px;
+    border-color: #21B573;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.course .card-body .btn-success:hover,
+.course .card-body .btn-success:focus{
+    color: #21B573;
+    background-color: transparent;
+    border-color: #21B573;
+}
+
+
+/* TESTIMONIAL SECTION */
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.testimonial h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color:#000;
+    text-align: center;
+    margin: 0px 0px 80px;
+}
+
+.testimonial img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.testimonial p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    margin-top: 20px 0px 0px;
+}
+
+.testimonials-content img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+.testimonials-content{
+    display: flex;
+    align-items: center;
+}
+.testimonials-content p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* FOOTER START */
+footer{
+    width: 100%;
+    padding: 80px 0px 20px;
+    background: #282531;
+    color: white;
+
+}
+
+footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.widget{
+    width: 100%;
+}
+
+.widget h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.widget ul{
+    padding: 0px;
+    text-decoration: none;
+}
+
+.widget ul li a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.copywright{
+    margin-top: 60px;
+    text-align: center;
+    color: #CDCDCD;
+
+}
+
+
+
+@media (max-width: 500px) {
+    .banner-img {
+        margin-top:100px;
+    }
+
+    .banner-button{
+        text-align: center;
+    }
+}
